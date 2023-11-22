@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
+    <!-- <style>
         body {
             margin: 0;
             padding: 0;
@@ -71,6 +71,33 @@
             <p>Your paragraph content goes here.</p>
             <a href="#" class="apply-button">Apply Now</a>
         </div>
-    </div>
+    </div> -->
+    <div class="grid grid-cols-2 gap-4">
+        <style>
+          .bullet::before {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background-color: #FFA500; /* Orange color */
+            border-radius: 50%;
+            margin-right: 8px; /* Adjust spacing as needed */
+          }
+        </style>
+      
+        <p class="text-base leading-7 font-normal text-gray-800 mb-2 bullet">
+          Zero investment and zero registration fees
+        </p>
+        <p class="text-base leading-7 font-normal text-gray-800 mb-2 bullet">
+          Generous Rewards
+        </p>
+        <p class="text-base leading-7 font-normal text-gray-800 mb-2 bullet">
+          Generous Rewards
+        </p>
+        <p class="text-base leading-7 font-normal text-gray-800 mb-2 bullet">
+          Generous Rewards
+        </p>
+      </div>
+      
 </body>
 </html>
