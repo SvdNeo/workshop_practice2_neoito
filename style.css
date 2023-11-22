@@ -1,18 +1,15 @@
 .bubble::before {
     content: '';
-    border-top-left-radius: 80% 100%;
-    border-top-right-radius: 80% 100%;
-  
+    border-top-left-radius: 70% 100%;
+    border-top-right-radius: 70% 100%;
     width: 100%;
     background-color: #FFF5F2;
-    height: 25px;
+    height: 35px;
 }
 
-.bubble {
-
-  
-     
-    width: 100%;
-    background-color: linear-gradient(0deg, rgba(255, 255, 255, 0.00) 0%, #FFF5F2 100%);
-    
-}
+input::placeholder {
+    color: transparent;
+  }
+  input:focus::placeholder {
+    color: #666;
+  }
