@@ -263,52 +263,52 @@
         <div class="max-w-md mx-auto mt-4 p-6 text-white">
           <div class="text-center mb-4 relative pb-2">
             <div
-              class="flex items-center border-b border-b-2 border-[#6D7B9C] focus:border-blue-500"
+              class="flex items-center pb-2 sm:pb-5 "
             >
               <img
                 src="/assets/profile_10302971.png"
                 alt="Profile Icon"
-                class="w-3 h-3 mr-2"
+                class="w-3 h-3 mr-2 absolute"
               />
               <input
                 type="text"
                 placeholder="Name"
-                class="bg-transparent w-full md:w-[575px] border-none"
+                class="border-b w-full md:w-[575px] border-b-2 border-[#6D7B9C] focus:border-blue-500 bg-transparent outline-none pl-6"
               />
             </div>
           </div>
 
           <div class="text-center mb-4 relative pb-2">
-            <div class="flex items-center border-b border-b-2 border-[#6D7B9C]">
+            <div class="flex items-center pb-2 sm:pb-5">
               <img
                 src="/assets/Group 28.svg"
                 alt="Profile Icon"
-                class="w-3 h-3 mr-2"
+                class="w-3 h-3 mr-2 absolute"
               />
               <input
                 type="text"
                 placeholder="E-mail"
-                class="bg-transparent w-full md:w-[575px] border-none"
+                class="border-b w-full md:w-[575px] border-b-2 border-[#6D7B9C] focus:border-blue-500 bg-transparent outline-none pl-6"
               />
             </div>
           </div>
 
-          <div class="text-center mb-4 relative pb-2">
-            <div class="flex items-center border-b border-b-2 border-[#6D7B9C]">
+          <div class="text-center mb-1 relative pb-2">
+            <div class="flex items-center pb-2 sm:pb-5">
               <img
                 src="/assets/Group 25.svg"
                 alt="Profile Icon"
-                class="w-3 h-3 mr-2"
+                class="w-3 h-3 mr-2 absolute"
               />
               <input
                 type="text"
                 placeholder="LinkedIn"
-                class="bg-transparent w-full md:w-[575px] border-none"
+                class="border-b w-full md:w-[575px] border-b-2 border-[#6D7B9C] focus:border-blue-500 bg-transparent outline-none pl-6"
               />
             </div>
           </div>
 
-          <div class="pt-5 text-center mb-2">
+          <div class="pt-2 text-center mb-2  mr-4">
             <p>
               We wish to be in close dialogue with our customers as we develop
               our platform. Therefore, your email is important to us.
@@ -319,7 +319,7 @@
             class="apply-now bg-white transition duration-300 transform hover:bg-blue-600 w-48 sm:w-48 ml-14 md:ml-24 p-4 mb-16 font-semibold flex-shrink-0 rounded-full text-black-300 relative"
           >
             <span
-              class="mr-4 md:mr-6 text-blue-500 text-xs md:text-base font-bold"
+              class="mr-4 md:mr-6 text-black text-xs md:text-base font-bold"
               >Apply Now</span
             >
             <span
@@ -331,12 +331,13 @@
         </div>
       </section>
     </div>
-    <section class="container mx-auto w-full md:w-1/2">
+    <section class="container mx-auto ">
       <div class="text-4xl md:text-center text-left font-bold">FAQ</div>
 
-      <div class="flex flex-col sm:flex-row">
+      <div class="flex  flex-col sm:flex-row space-x-4  ">
+        <div class="flex-1 ">
         <div class="accordion">
-          <div class="accordion-item">
+          <div class="accordion-item ">
             <input type="checkbox" id="question1" class="hidden" />
             <label
               for="question1"
@@ -445,7 +446,9 @@
             </div>
           </div>
         </div>
-        <div>
+      </div>
+        <div class="flex-1">
+       
           <div class="accordion-item">
             <input type="checkbox" id="question5" class="hidden" />
             <label
@@ -531,12 +534,12 @@
       <script src="script.js"></script>
     </section>
     <footer
-      class="flex flex-col md:flex-row justify-evenly mt-6 text-base font-normal mb-6"
+      class="flex flex-col md:flex-row justify-between mt-6 text-base font-normal mb-6 container mx-auto"
     >
-      <p class="ml-16">
+      <p >
         <span class="text-[#FF6E43]"> Neoito</span> © 2020. All rights reserved.
       </p>
-      <p class="md:mr-16 ml-16">Terms of Service | Privacy Policy</p>
+      <p >Terms of Service | Privacy Policy</p>
     </footer>
   </body>
 </html>
